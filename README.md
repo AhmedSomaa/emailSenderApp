@@ -1,2 +1,2 @@
 # reactJS-emailSenderApp
-A reactJs application to send email using nodemailer.
+A reactJS application to send email using nodemailer.
