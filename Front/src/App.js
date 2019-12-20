@@ -38,7 +38,7 @@ class App extends Component {
       Msg: this.state.Msg
     }
 
-    console.log("printing state from front-end: ", this.state);
+    //console.log("printing state from front-end: ", this.state);
 
     axios
       .post('/test', content)
@@ -50,10 +50,10 @@ class App extends Component {
   render(){
     return(
       <div className="email-page">
-        <h1>SalahCo Email Sender</h1><hr/>
+        <h1>The Next Email Sender</h1><hr/>
         <Form onSubmit={this.handleSubmit}>
           <FormGroup row>
-            <Label for="exampleEmail" sm={2}>Email</Label>
+            <Label for="exampleEmail" sm={2}>To</Label>
             <Col sm={10}>
               <Input 
               type="email" 
